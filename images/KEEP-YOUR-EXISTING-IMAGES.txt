@@ -1,0 +1,7 @@
+Keep all your existing personal photographs in this images folder.
+
+Important design backgrounds referenced by EDIT-HERE.js:
+- background.avif
+- watercolor.avif
+
+The new transparent floral frame is already included as hero-floral-frame.png.

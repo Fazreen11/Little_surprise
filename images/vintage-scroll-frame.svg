@@ -1,0 +1,69 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1000 620"
+  preserveAspectRatio="none"
+>
+  <defs>
+    <linearGradient id="silverGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9dad3" />
+      <stop offset="0.28" stop-color="#0b4869" />
+      <stop offset="0.5" stop-color="#d5eef0" />
+      <stop offset="0.72" stop-color="#161550" />
+      <stop offset="1" stop-color="#75e1e9" />
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <path
+    d="
+      M210 35
+      H420
+      C462 35 487 20 500 3
+      C513 20 538 35 580 35
+      H790
+
+      C856 35 886 65 886 122
+      C933 122 958 151 958 207
+
+      V252
+      C958 280 972 296 997 310
+      C972 324 958 340 958 368
+
+      V413
+      C958 469 933 498 886 498
+      C886 555 856 585 790 585
+
+      H580
+      C538 585 513 600 500 617
+      C487 600 462 585 420 585
+      H210
+
+      C144 585 114 555 114 498
+      C67 498 42 469 42 413
+
+      V368
+      C42 340 28 324 3 310
+      C28 296 42 280 42 252
+
+      V207
+      C42 151 67 122 114 122
+      C114 65 144 35 210 35
+      Z
+    "
+    fill="none"
+    stroke="url(#silverGold)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    vector-effect="non-scaling-stroke"
+    filter="url(#softGlow)"
+  />
+</svg>
